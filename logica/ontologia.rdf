@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/d1">
+    <rdf:type rdf:resource="http://example.org/Dog"/>
+    <ns1:name>Fido</ns1:name>
+    <ns1:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/age">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dog">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/p1">
+    <rdf:type rdf:resource="http://example.org/Person"/>
+    <ns1:name>Alice</ns1:name>
+    <ns1:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ns1:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Person">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/name">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+</rdf:RDF>
